@@ -1,0 +1,71 @@
+{
+  "title": "Debug Panel",
+  "tabs": { 
+    "settings": "Config", 
+    "animation": "Anim", 
+    "presets": "Presets", 
+    "export": "Export", 
+    "stats": "Stats" 
+  },
+  "engine": "Playback Engine",
+  "resume": "Resume",
+  "active": "Active",
+  "restart": "Restart",
+  "pausedHint": "Engine is currently paused. Configuration updates will take effect but may not be visually updated until resumed.",
+  "presets": "Built-in Presets",
+  "vueComponent": "Vue Component (SFC)",
+  "componentProps": "Component Props Usage",
+  "configJson": "Configuration JSON",
+  "copyAll": "COPY ALL",
+  "copySuccess": "Copied Successfully",
+  "stats": "Live Performance Stats",
+  "rolling": "Rolling 30 Samples",
+  "randomize": "Randomize",
+  "frameRate": "Frame Rate",
+  "framesPerSecond": "frames per second",
+  "labels": { 
+    "timeSpeed": "Time Speed", 
+    "noiseScale": "Noise Scale", 
+    "grainAmount": "Grain Amount",
+    "grainScale": "Grain Scale",
+    "grainAnimated": "Grain Animated",
+    "contrast": "Contrast", 
+    "zoom": "Zoom",
+    "centerX": "Center X",
+    "centerY": "Center Y",
+    "color1": "Color 1",
+    "color2": "Color 2",
+    "color3": "Color 3",
+    "colorBalance": "Color Balance",
+    "warpStrength": "Warp Strength",
+    "warpFrequency": "Warp Frequency",
+    "warpSpeed": "Warp Speed",
+    "warpAmplitude": "Warp Amplitude",
+    "rotationAmount": "Rotation Amount",
+    "blendAngle": "Blend Angle",
+    "blendSoftness": "Blend Softness",
+    "gamma": "Gamma",
+    "saturation": "Saturation",
+    "rotation": "Rotation",
+    "blur": "Blur",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "subtabs": {
+    "basic": "Basic",
+    "colors": "Colors",
+    "warp": "Warp",
+    "visual": "Visual"
+  },
+  "bg": {
+    "grainient": {
+      "label": "Grainient",
+      "preset": {
+        "vibrant": "Vibrant",
+        "purpleGold": "Purple Gold",
+        "blue": "Blue",
+        "pink": "Pink"
+      }
+    }
+  }
+}

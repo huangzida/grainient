@@ -9,13 +9,11 @@ export default defineConfig(({ mode }) => {
   const isPlayground = mode === 'playground'
 
   return {
-    base: isPlayground ? '/star-trails-gl/' : './',
+    base: isPlayground ? '/grainient/' : './',
     root: isPlayground ? 'playground' : '.',
     plugins: [
       vue(),
-      UnoCSS({
-        mode: 'vue-scoped',
-      }),
+      UnoCSS(),
       cssInjectedByJsPlugin(),
       !isPlayground && dts({
         tsconfigPath: './tsconfig.json',
@@ -34,7 +32,7 @@ export default defineConfig(({ mode }) => {
     } : {
       lib: {
         entry: fileURLToPath(new URL('./src/index.ts', import.meta.url)),
-        name: 'BgEffectsStarTrailsGL',
+        name: 'BgEffectsGrainient',
         formats: ['es', 'umd'],
         fileName: (format) => `index.${format === 'es' ? 'js' : 'umd.cjs'}`,
       },

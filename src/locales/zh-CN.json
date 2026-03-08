@@ -1,0 +1,71 @@
+{
+  "title": "调试面板",
+  "tabs": {
+    "settings": "配置",
+    "animation": "动画",
+    "presets": "预设",
+    "export": "导出",
+    "stats": "性能"
+  },
+  "engine": "播放引擎",
+  "resume": "继续",
+  "active": "运行中",
+  "restart": "重置",
+  "pausedHint": "引擎当前已暂停。配置更改仍会生效，但可能在恢复前无法即时预览。",
+  "presets": "内置预设",
+  "vueComponent": "Vue 组件 (SFC)",
+  "componentProps": "组件属性用法",
+  "configJson": "配置数据 (JSON)",
+  "copyAll": "全选复制",
+  "copySuccess": "复制成功",
+  "stats": "实时性能统计",
+  "rolling": "滚动 30 个采样点",
+  "randomize": "随机生成",
+  "frameRate": "帧率",
+  "framesPerSecond": "帧每秒",
+  "labels": {
+    "timeSpeed": "时间速度",
+    "noiseScale": "噪声缩放",
+    "grainAmount": "颗粒量",
+    "grainScale": "颗粒缩放",
+    "grainAnimated": "颗粒动画",
+    "contrast": "对比度",
+    "zoom": "缩放",
+    "centerX": "中心 X",
+    "centerY": "中心 Y",
+    "color1": "颜色1",
+    "color2": "颜色2",
+    "color3": "颜色3",
+    "colorBalance": "颜色平衡",
+    "warpStrength": "扭曲强度",
+    "warpFrequency": "扭曲频率",
+    "warpSpeed": "扭曲速度",
+    "warpAmplitude": "扭曲幅度",
+    "rotationAmount": "旋转量",
+    "blendAngle": "混合角度",
+    "blendSoftness": "混合柔和度",
+    "gamma": "伽马值",
+    "saturation": "饱和度",
+    "rotation": "旋转角度",
+    "blur": "模糊强度",
+    "enabled": "开启",
+    "disabled": "关闭"
+  },
+  "subtabs": {
+    "basic": "基础",
+    "colors": "颜色",
+    "warp": "扭曲",
+    "visual": "视觉"
+  },
+  "bg": {
+    "grainient": {
+      "label": "颗粒渐变",
+      "preset": {
+        "vibrant": "活力四射",
+        "purpleGold": "紫金交辉",
+        "blue": "深海蓝韵",
+        "pink": "粉色梦境"
+      }
+    }
+  }
+}
