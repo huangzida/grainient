@@ -4,6 +4,8 @@
 
 [English](./README.md) | [简体中文](./README_CN.md)
 
+[Live Demo](https://huangzida.github.io/grainient/)
+
 ![Grainient Effect](https://img.shields.io/badge/type-effect-blue) ![Vue 3](https://img.shields.io/badge/vue-3.x-brightgreen) ![WebGL](https://img.shields.io/badge/WebGL-2.0-orange)
 
 ## ✨ 特性
